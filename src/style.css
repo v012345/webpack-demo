@@ -1,4 +1,13 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./Tomatoes-O8L8.ttf') format('truetype'), url('./Branda-yolq.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
 .hello {
   color: red;
+  font-family: 'MyFont';
   background: url('./icon.png');
 }
